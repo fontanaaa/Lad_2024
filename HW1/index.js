@@ -39,3 +39,52 @@ undefined + null // NaN, NaN + 0 = NaN
 "2" > 10 // false, строчная 2 становится числом и она меньше 10
 
 NaN == undefined // false, 0 == NaN
+
+
+
+const temp = 20;
+if(temp <= -30) {
+    console.log("Оставайтесь дома!")
+} else if (temp <= - 10) {
+    console.log("Сегодня холодно!")
+} else if (temp <= 5) {
+    console.log("Не холодно!")
+} else if (temp <= 15) {
+    console.log("Тепло!")
+} else if (temp <= 25) {
+    console.log("Очень тепло!")
+} else if (temp < 35) {
+    console.log("Жарко!")
+} 
+    
+let res = 155;
+
+switch (res) {
+    case 15:
+        console.log("OK")
+        break;
+    case "manager":
+        console.log("bad")
+        break;
+    case "user":
+        console.log("bad")
+        break;  
+    default:
+        console.log("bad values")
+} 
+
+// let counterDays = 1;
+
+// while (N >= M) {
+//     N = N / 2;
+//     counterDays++;
+//     console.log(counterDays)
+// }
+
+
+let N = 32;
+const M = 5;
+for(let i = 1; N >= M; i++) {
+    if(i > 1)N = N / 2;
+    console.log(i) 
+}

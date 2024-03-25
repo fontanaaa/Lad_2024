@@ -1,9 +1,9 @@
 // Работа с if-else
 
 // 1
-const a = 1;
+// const a = 1;
 
-a === 1 ? console.log("Верно") : console.log("Неверно");
+// a === 1 ? console.log("Верно") : console.log("Неверно");
 
 // 2 
 // const a = 1;

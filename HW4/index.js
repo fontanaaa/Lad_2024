@@ -2,10 +2,10 @@
 
 // 1
 
-function squareNumber(n) {
-    return n ** 2;
-}
-console.log(squareNumber(5));
+// function squareNumber(n) {
+//     return n ** 2;
+// }
+// console.log(squareNumber(5));
 
 // const squareNumber = function(n) {
 //     return n ** 2;
@@ -53,35 +53,27 @@ console.log(squareNumber(5));
 
 // 4
 
-// function dayOfWeek(day) {
-//     switch(day) {
-//         case 1:
-//             console.log('Понедельник')
-//             break
-//         case 2:
-//             console.log('Вторник')
-//             break
-//         case 3:
-//             console.log('Cреда')
-//             break
-//         case 4:
-//             console.log('Четверг')
-//             break
-//         case 5:
-//             console.log('Пятница')
-//             break
-//         case 6:
-//             console.log('Суббота')
-//             break
-//         case 7:
-//             console.log('Воскресенье')
-//             break
-//         default:
-//             console.log('Введите значение от 1 до 7')
-//             break
-//     }
-// }
-// dayOfWeek(1);
+function dayOfWeek(day) {
+    switch(day) {
+        case 1:
+            return ('Понедельник')
+        case 2:
+            return ('Вторник')
+        case 3:
+            return ('Cреда')
+        case 4:
+            return ('Четверг')
+        case 5:
+            return ('Пятница')
+        case 6:
+            return ('Суббота')
+        case 7:
+            return ('Воскресенье')
+        default:
+            return ('Введите значение от 1 до 7')
+    }
+}
+console.log(dayOfWeek(1));
 
 // const dayOfWeek = function(day) {
 //     switch(day) {

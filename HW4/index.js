@@ -53,53 +53,53 @@
 
 // 4
 
-function dayOfWeek(day) {
-    switch(day) {
-        case 1:
-            return ('Понедельник')
-        case 2:
-            return ('Вторник')
-        case 3:
-            return ('Cреда')
-        case 4:
-            return ('Четверг')
-        case 5:
-            return ('Пятница')
-        case 6:
-            return ('Суббота')
-        case 7:
-            return ('Воскресенье')
-        default:
-            return ('Введите значение от 1 до 7')
-    }
-}
-console.log(dayOfWeek(1));
+// function dayOfWeek(day) {
+//     switch(day) {
+//         case 1:
+//             return ('Понедельник')
+//         case 2:
+//             return ('Вторник')
+//         case 3:
+//             return ('Cреда')
+//         case 4:
+//             return ('Четверг')
+//         case 5:
+//             return ('Пятница')
+//         case 6:
+//             return ('Суббота')
+//         case 7:
+//             return ('Воскресенье')
+//         default:
+//             return ('Введите значение от 1 до 7')
+//     }
+// }
+// console.log(dayOfWeek(7));
 
 // const dayOfWeek = function(day) {
 //     switch(day) {
 //         case 1:
-//             console.log('Понедельник')
+//             return ('Понедельник')
 //             break
 //         case 2:
-//             console.log('Вторник')
+//             return ('Вторник')
 //             break
 //         case 3:
-//             console.log('Cреда')
+//             return ('Cреда')
 //             break
 //         case 4:
-//             console.log('Четверг')
+//             return ('Четверг')
 //             break
 //         case 5:
-//             console.log('Пятница')
+//             return ('Пятница')
 //             break
 //         case 6:
-//             console.log('Суббота')
+//             return ('Суббота')
 //             break
 //         case 7:
-//             console.log('Воскресенье')
+//             return ('Воскресенье')
 //             break
 //         default:
-//             console.log('Введите значение от 1 до 7')
+//             return ('Введите значение от 1 до 7')
 //             break
 //     }
 // }
@@ -108,28 +108,28 @@ console.log(dayOfWeek(1));
 // const dayOfWeek = (day) => {
 //     switch(day) {
 //         case 1:
-//             console.log('Понедельник')
+//             return ('Понедельник')
 //             break
 //         case 2:
-//             console.log('Вторник')
+//             return ('Вторник')
 //             break
 //         case 3:
-//             console.log('Cреда')
+//             return ('Cреда')
 //             break
 //         case 4:
-//             console.log('Четверг')
+//             return ('Четверг')
 //             break
 //         case 5:
-//             console.log('Пятница')
+//             return ('Пятница')
 //             break
 //         case 6:
-//             console.log('Суббота')
+//             return ('Суббота')
 //             break
 //         case 7:
-//             console.log('Воскресенье')
+//             return ('Воскресенье')
 //             break
 //         default:
-//             console.log('Введите значение от 1 до 7')
+//             return ('Введите значение от 1 до 7')
 //             break
 //     }
 // }
@@ -139,84 +139,84 @@ console.log(dayOfWeek(1));
 // 5
 
 // function checkNumbers(a, b = 0) {
-//    return a === b ?  true : false;
+//    return a === b;
 // }
-// console.log(checkNumbers(5, 5));
+// console.log(checkNumbers(5));
 
 // const checkNumbers = function(a, b = 0) {
-//     return a === b ?  true : false;
+//     return a === b;
 // } 
 // console.log(checkNumbers(5, 1));
 
 // const checkNumbers = (a, b = 0) => {
-//     return a === b ?  true : false;
+//     return a === b;
 // }
 // console.log(checkNumbers(5));
 
 // 6
 
 // function checkNumbers(a, b = 0) {
-//  return a + b > 10 ? true : false;
+//  return a + b > 10;
 // }
 // console.log(checkNumbers(5, 5));
 
 // const checkNumbers = function(a, b = 0) {
-//     return a + b > 10 ? true : false;
+//     return a + b > 10;
 // }
 // console.log(checkNumbers(5, 1));
 
 // const checkNumbers = (a, b = 0) => {
-//     return a + b > 10 ? true : false;
+//     return a + b > 10;
 // }
 // console.log(checkNumbers(11));
 
 // 7 
 
 // function checkNumber(value = 0) {
-//   return value > 0 ? false : true 
+//   return value > 0;
 // }
 // console.log(checkNumber(1));
 
 // const checkNumber = function(value = 0) {
-//     return value > 0 ? false : true 
+//     return value > 0; 
 // }
 // console.log(checkNumber(-4));
 
 // const checkNumber = (value = 0) => {
-//     return value > 0 ? false : true
+//     return value > 0;
 // }
 // console.log(checkNumber(-1));
 
 // 8
 
 // function isNumberInRange(value = 0) {
-//     return value > 0 && value < 10 ? true : false
+//     return value > 0 && value < 10;
 // }
 // console.log(isNumberInRange(11));
 
 // const isNumberInRange = function(value = 0) {
-//     return value > 0 && value < 10 ? true : false
+//     return value > 0 && value < 10;
 // }
 // console.log(isNumberInRange());
 
 // const isNumberInRange = (value = 0) => {
-//     return value > 0 && value < 10 ? true : false
+//     return value > 0 && value < 10;
 // }
 // console.log(isNumberInRange(100));
 
 // 9
 
 // function isEven(value = 0) {
-//     return Math.round(value) % 2 === 0 ? true : false
+//     return Math.round(value) % 2 === 0;
 // }
 // console.log(isEven(1.9));
 
 // const isEven = function(value = 0) {
-//     return Math.round(value) % 2 === 0 ? true : false
+//     return Math.round(value) % 2 === 0;
 // }
 // console.log(isEven(3));
 
 // const isEven = (value = 0) => {
-//     return Math.round(value) % 2 === 0 ? true : false
+//     return Math.round(value) % 2 === 0;
 // }
 // console.log(isEven(99));

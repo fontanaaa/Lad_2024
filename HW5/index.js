@@ -1,9 +1,9 @@
 // 1
-function stringToAray(str) {
-     const result = str.split(" ");
-   console.log(result);
-};
-stringToAray("Moscow is a capital of Russia");
+// function stringToAray(str) {
+//      const result = str.split(" ");
+//    console.log(result);
+// };
+// stringToAray("Moscow is a capital of Russia");
 
 // 2
 

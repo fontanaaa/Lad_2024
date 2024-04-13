@@ -2,15 +2,15 @@
 
 // 1
 
-const arr = ["generated", "javascript", "pool", "easy"];
+// const arr = ["generated", "javascript", "pool", "easy"];
 
-const itemLength = (arr) => {
-    const result = arr.map(function(item) {
-        return item.length;
-    });
-    console.log(result);
-};
-itemLength(arr);
+// const itemLength = (arr) => {
+//     const result = arr.map(function(item) {
+//         return item.length;
+//     });
+//     console.log(result);
+// };
+// itemLength(arr);
 
 // 2 
 
@@ -59,7 +59,7 @@ itemLength(arr);
 
 // let arrayOfLetters = (str) => {
 //     const strArr = str.split("");
-//     let result = strArr.map((el, i, arr) => arr[i-1] + el + arr[i+1]);
+//     let result = strArr.map((el, i, arr) => arr[i-1] || "" + el + arr[i+1] || "");
 //     console.log(result);
 // }
 // arrayOfLetters(str);

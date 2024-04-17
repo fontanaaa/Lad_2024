@@ -89,7 +89,7 @@
 // alert(this.value + ', ' + surname + ' ' + name);
 // }
 
-// //Тут напишите конструкцию с bind()
+//Тут напишите конструкцию с bind()
 // const func1 = func.bind(elem);
 
 // func1('Иванов', 'Иван'); //тут должно вывести 'привет, Иванов Иван'
@@ -109,3 +109,19 @@
 // console.log(sum(2)(2)(2));
 
 // 8 
+
+const countdownTimer = (startValue, endValue) => {
+    let currentValue = startValue;
+    
+    function countdown() {
+        if(currentValue <= endValue) {
+            console.log("The timer has finished working")
+            return;
+        }
+        console.log("The current value of the timer: " + currentValue);
+        currentValue--;
+        setTimeout(countdown, 1000);
+    }
+    countdown();
+}
+countdownTimer(5, 0);

@@ -2,23 +2,23 @@
 
 // 1
 
-// class Worker {
-//     constructor(name, surname, rate, days) {
-//         this.name = name,
-//         this.surname = surname,
-//         this.rate = rate;
-//         this.days= days;
-//     }
-//     getSalary() {
-//         console.log(this.rate * this.days);
-//     }
-//     getFullName() {
-//         console.log(`${this.name} ${this.surname}`)
-//     }
-// }
+class Worker {
+    constructor(name, surname, rate, days) {
+        this.name = name,
+        this.surname = surname,
+        this.rate = rate;
+        this.days= days;
+    }
+    getSalary() {
+        console.log(this.rate * this.days);
+    }
+    getFullName() {
+        console.log(`${this.name} ${this.surname}`)
+    }
+}
 
-// const worker = new Worker("Denis", "Abramov", 5000, 22);
-// worker.getFullName();
+const worker = new Worker("Denis", "Abramov", 5000, 22);
+worker.getFullName();
 
 // 2
 

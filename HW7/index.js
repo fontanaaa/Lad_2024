@@ -110,18 +110,40 @@
 
 // 8 
 
-const countdownTimer = (startValue, endValue) => {
-    let currentValue = startValue;
+// const countdownTimer = (startValue, endValue) => {
+//     let currentValue = startValue;
     
-    function countdown() {
-        if(currentValue <= endValue) {
-            console.log("The timer has finished working")
-            return;
-        }
-        console.log("The current value of the timer: " + currentValue);
-        currentValue--;
-        setTimeout(countdown, 1000);
-    }
-    countdown();
-}
-countdownTimer(5, 0);
+//     function countdown() {
+//         if(currentValue <= endValue) {
+//             console.log("The timer has finished working")
+//             return;
+//         }
+//         console.log("The current value of the timer: " + currentValue);
+//         currentValue--;
+//         setTimeout(countdown, 1000);
+//     }
+//     countdown();
+// }
+// countdownTimer(5, 0);
+
+// 
+
+// const createTimer = () => {
+//     let count;
+//     return(start, finish) => {
+//         count = start;
+//         const interval = setInterval(() => {
+//             if(count < finish) {
+//                 console.log("Time is over!");
+//                 clearInterval(interval);
+//                 return;
+//             }
+//             console.log(count);
+//             count--;
+//         }, 1000);
+//     };
+// };
+
+// const timer = createTimer();
+
+// timer(10, 0);

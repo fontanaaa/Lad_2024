@@ -2,23 +2,23 @@
 
 // 1
 
-class Worker {
-    constructor(name, surname, rate, days) {
-        this.name = name,
-        this.surname = surname,
-        this.rate = rate;
-        this.days= days;
-    }
-    getSalary() {
-        console.log(this.rate * this.days);
-    }
-    getFullName() {
-        console.log(`${this.name} ${this.surname}`)
-    }
-}
+// class Worker {
+//     constructor(name, surname, rate, days) {
+//         this.name = name,
+//         this.surname = surname,
+//         this.rate = rate;
+//         this.days= days;
+//     }
+//     getSalary() {
+//         console.log(this.rate * this.days);
+//     }
+//     getFullName() {
+//         console.log(`${this.name} ${this.surname}`)
+//     }
+// }
 
-const worker = new Worker("Denis", "Abramov", 5000, 22);
-worker.getFullName();
+// const worker = new Worker("Denis", "Abramov", 5000, 22);
+// worker.getFullName();
 
 // 2
 
@@ -101,7 +101,7 @@ worker.getFullName();
 //         console.log(this.string.charAt(0).toUpperCase() + this.string.slice(1));
 //     };
 //     ucWords(){
-//         console.log(this.string.split(/\s+/).map((chr) => chr[0].toUpperCase() + chr.slice(1)).join(" "));
+//         console.log(this.string.split(/\s+/).map((chr) => this.ucFirst()).join(" "));
 //     }
 // }
 
